@@ -15,13 +15,9 @@ yarn install
 yarn dev -o
 ```
 
-Configure your OpenAI API key to `nuxt.config.ts`:
+Add OpenAI API key to environment variable or to `.env` file:
 
-```typescript
-export default defineNuxtConfig({
-  runtimeConfig: {
-    OPENAI_API_KEY: '[your-api-key]',
-  }
-})
+```bash
+OPENAI_API_KEY = "your-api-key"
 ```
 
